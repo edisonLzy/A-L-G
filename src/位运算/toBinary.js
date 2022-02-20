@@ -5,6 +5,6 @@ function toBinary(number) {
   }
   return result;
 }
-const num = 123;
+const num = 32;
 
 console.assert(toBinary(num) === num.toString(2).padStart(32, 0));
