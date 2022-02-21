@@ -1,5 +1,5 @@
 const rand = (max) => Math.floor(Math.random() * max);
-function randomArr(len, maxValue) {
+module.exports = function randomArr(len, maxValue) {
   const arr = new Array(len);
   arr[0] = rand(maxValue);
   for (let i = 0; i < arr.length; i++) {
