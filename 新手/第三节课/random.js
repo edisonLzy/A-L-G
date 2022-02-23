@@ -8,4 +8,4 @@ module.exports = function randomArr(len, maxValue) {
     } while (arr[i] === arr[i - 1]);
   }
   return arr;
-}
+};
